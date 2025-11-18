@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class testMulti {
-    private IPartieMultiJoueurs partie;
+class MultiTest {
+	private IPartieMultiJoueurs partie;
 
     @BeforeEach
     void setUp() {
@@ -47,4 +47,5 @@ public class testMulti {
         });
         assertEquals("Joueur inconnu", exception.getMessage());
     }
+
 }
